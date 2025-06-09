@@ -3,7 +3,7 @@ import IMAGE1 from "../components/cv/assets/image1.jpeg"
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Login from "../components/auth/Login";
-import SignUp from "../components/auth/SignUp";
+import SignUp from "../components/auth/Signup";
 import Modal from "../components/cv/component/Modal";
 import { UserContext } from "../components/cv/context/userContext";
 import ProfileInfoCard from "../components/cv/component/Card/ProfileInfoCard";
@@ -30,7 +30,7 @@ const LandingPage = () => {
                         className="bg-purple-100 text-sm font-semibold text-black px-7 py-2.5 rounded-lg hover:bg-gray-800 hover:text-white transition-colors cursor-pointer "
                         onClick={() => setOpenAuthModal(true)}
                     >
-                        Login/ SignUp
+                        Login/SignUp
                     </button>}
                 </header>
 

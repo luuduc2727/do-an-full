@@ -35,7 +35,7 @@ const CategoryCarousel = () => {
     <div>
       <Carousel
         className="w-full max-w-xl mx-auto my-20"
-        setApi={setEmblaApi} 
+        setApi={setEmblaApi}
         opts={{ loop: true }}
       >
         <CarouselContent className="-ml-1 gap-2">
